@@ -1,0 +1,6 @@
+This is the generic solution structure for 1-D sweep line algorithm
+1. sort on the basis of the requirement
+2. Treat the sorted list as a stack
+3. while stack is not empty or while the the coverage is not done
+    i)  start from the first element or the base condition
+    ii) At each point if there are multiple overlaps consider it
